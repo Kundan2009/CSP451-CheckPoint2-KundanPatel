@@ -1,3 +1,7 @@
+
+# Project Title
+This project implements API ENDPOINTS
+
 # CSP451-CheckPoint2-KundanPatel
 
 ## User Authentication
@@ -6,3 +10,4 @@
 - Requirements:
   - Username ≥ 3 chars
   - Password ≥ 5 chars
+
