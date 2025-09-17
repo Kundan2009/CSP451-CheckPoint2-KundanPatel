@@ -7,3 +7,10 @@ let db = new sqlite3.Database(":memory:", (err) => {
   }
 });
 module.exports = db;
+
+
+db.serialize(() => {
+  db.run("CREATE TABLE users (id INTEGER PRIMARY KEY, username TEXT, password TEXT)");
+  db.run("INSERT INTO users (username, password) VALUES (?, ?)", ["testuser", "pass123"]);
+  console.log("Sample user inserted into database");
+});
