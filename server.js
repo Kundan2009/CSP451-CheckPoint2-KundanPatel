@@ -12,7 +12,7 @@ app.listen(3000, () => {
 });
 
 
-// Sample user list
+// Sample user list here
 let users = [
   { id: 1, username: "alice" },
   { id: 2, username: "bob" }
