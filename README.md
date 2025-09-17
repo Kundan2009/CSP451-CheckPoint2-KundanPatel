@@ -1,5 +1,2 @@
-# CSP451-CheckPoint2-KundanPatel
-
-## API Endpoints
-- GET `/users` → returns list of users
-- POST `/users` → adds a new user
+# Project Title
+This project implements API ENDPOINTS
